@@ -46,7 +46,7 @@ const MentionPage: React.FC = () => {
 
     const handleTagSelect = (tag: string) => {
         if (tag === 'Events') {
-            router.push('/pages/events');
+            router.push('/events');
         }
         setIsDropdownOpen(false);
     };
