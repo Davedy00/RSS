@@ -10,7 +10,7 @@ type Props = {
     disabled?: boolean;
 };
 
-const Button = ({ onClick, text, icon, theme, type, isLoading }: Props) => {
+const Button = ({ onClick, text, icon, type, isLoading }: Props) => {
     return (
         <button
             type={type}
